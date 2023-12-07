@@ -1,8 +1,13 @@
 import React from "react";
-
+import tukkay from "../assets/tukkay.mp3";
 import image10 from "../assets/image 10.png";
 
 const Navigtaion = () => {
+  const handlePlay = (e) => {
+    e.preventDefault();
+    const audio = new Audio(tukkay);
+    audio.play();
+  };
   return (
     <div className="bg-custom-background text-custom-text-dark">
       <nav className="flex justify-around py-1 ">
@@ -33,7 +38,8 @@ const Navigtaion = () => {
         </div>
         <div className="md:py-3 py-4">
           <a
-            className="md:text-[24px] bg-custom-btn-background text-custom-background py-2  px-5 rounded-lg"
+            onClick={handlePlay}
+            className="transition-colors duration-300 hover:text-custom-btn-background ease-in-out hover:bg-white border-custom-btn-background border-[2px] md:text-[24px] bg-custom-btn-background text-custom-background py-2  px-5 rounded-lg"
             href="#"
           >
             Beg Now

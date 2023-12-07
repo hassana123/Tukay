@@ -1,8 +1,16 @@
-import React from "react";
+import Reac, { useState, useRef } from "react";
 import image2 from "../assets/image 2.png";
 import image17 from "../assets/image 17.png";
 import image11 from "../assets/image 11.png";
+import tukkay from "../assets/tukkay.mp3";
 const Hero = () => {
+  //const audioRef = useRef(null);
+  // const [play, setPlay] = useState(false);
+  const handlePlay = (e) => {
+    e.preventDefault();
+    const audio = new Audio(tukkay);
+    audio.play();
+  };
   return (
     <main className="bg-custom-background  pt-2 text-custom-btn-background">
       <div className="md:flex justify-around mt-10 w-[90%] mx-auto">
@@ -21,7 +29,8 @@ const Hero = () => {
               Oga register first
             </a>
             <a
-              className=" border-[2px] border-custom-btn-background px-10 py-3 rounded lg"
+              onClick={handlePlay}
+              className="transition-colors duration-300 ease-in-out hover:bg-custom-btn-background hover:text-white border-[2px] border-custom-btn-background px-10 py-3 rounded lg"
               href="#"
             >
               Beg first
