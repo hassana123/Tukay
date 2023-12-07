@@ -10,10 +10,10 @@ const Reviews = () => {
         <h1 className="w-[80%] mx-auto text-center md:text-[64px] my-10 ">
           WHAT OUR TUKAY AMBASSADORS HAVE TO SAY
         </h1>
-        <div className="flex  overflow-x-auto space-x-5 cursor-grab">
-          <div className="bg-custom-background  relative w-[70%] flex-none h-[55vh] border-[1.5px] border-custom-btn-background flex">
-            <div className="mt-20 w-[50%]  mx-20">
-              <p className="my-10 text-[32px] ">
+        <div className="md:flex  md:overflow-x-auto md:space-x-5 md:cursor-grab">
+          <div className="bg-custom-background mx-auto rounded-lg relative w-[90%] my-5 md:w-[80%]   border-[2px] border-custom-btn-background md:flex">
+            <div className="mt-20 md:w-[50%]  md:mx-20 mx-3">
+              <p className="my-10 md:text-[32px] ">
                 <b>
                   My boss, you no go like give me urgent Tukay make I for fit
                   rep well?
@@ -25,13 +25,13 @@ const Reviews = () => {
               <small>Senior ambassador, Tukay</small>
             </div>
             <img
-              className="w-[30%]  absolute right-0  bottom-[-2%] overflow-hidden"
+              className="mx-auto w-[50%] md:w-[30%]  md:absolute right-0  md:bottom-[-2%] overflow-hidden"
               src={image4}
               alt=""
             />
           </div>
-          <div className="bg-custom-background  relative w-[70%] flex-none h-[55vh]   border-[1.5px] border-custom-btn-background flex">
-            <div className="mt-20 w-[50%] mx-20 ">
+          <div className=" bg-custom-background  rounded-lg mx-auto md:mx-0  relative w-[90%] md:w-[70%]       border-[2px] border-custom-btn-background md:flex">
+            <div className="mt-20 md:w-[50%] md:mx-20 mx-3">
               <p className="my-10 md:text-[32px]">
                 <b>
                   I be your girl o. Do me urgent TUKAY make i fit rep na. Abi na
@@ -44,14 +44,14 @@ const Reviews = () => {
               <small>Brand mbassador, Tukay</small>
             </div>
             <img
-              className="w-[30%] absolute right-0 bottom-[-0.2%] overflow-hidden"
+              className="mx-auto w-[50%] md:w-[30%]  md:absolute right-0  md:bottom-[-0.2%] overflow-hidden"
               src={image3}
               alt=""
             />
           </div>
         </div>
       </div>
-      <aside className=" flex md:text-[24px] bs rounded-lg justify-between w-[80%] mx-auto  my-20  px-20 py-20">
+      <aside className="md:flex md:text-[24px] bs rounded-lg justify-between md:w-[80%] w-[90%] mx-auto  my-20  md:px-20 px-2 py-20">
         <div>
           <p className="mb-20">
             <b>
@@ -67,7 +67,7 @@ const Reviews = () => {
           </a>
         </div>
         <div>
-          <img className=" my-10" src={image5} alt="" />
+          <img className="mx-auto my-10" src={image5} alt="" />
         </div>
       </aside>
     </main>

@@ -6,11 +6,11 @@ import vector2 from "../assets/vector (2).svg";
 const Footer = () => {
   return (
     <footer className="bg-custom-btn-background w-full p-10">
-      <main className="flex justify-between">
-        <div className="flex gap-3 w-[35%] mx-auto mt-20">
-          <img className="h-[15vh]" src={image13} alt="" />
-          <h1 className="text-custom-background text-[64px]">
-            <b>Tukay</b>{" "}
+      <main className="md:flex justify-between">
+        <div className="flex gap-3 md:w-[35%] w-[20%]  md:mx-auto mt-20">
+          <img className="md:h-[15vh]" src={image13} alt="" />
+          <h1 className="text-custom-background md:text-[64px] text-[24px]">
+            <b>Tukay</b>
           </h1>
         </div>
         <div>
@@ -35,7 +35,7 @@ const Footer = () => {
             <img src={vector2} alt="" />
           </div>
         </div>
-        <p className="w-[10%] text-center mx-auto mt-20 text-custom-background ">
+        <p className="md:w-[10%] text-center mx-auto mt-20 text-custom-background ">
           Last reminder to beg for TUKAY before salary finish o.
         </p>
       </main>
