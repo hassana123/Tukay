@@ -40,7 +40,7 @@ const Reviews = () => {
                 </b>
               </p>
               <p>
-                <b>Tukay Maryjane Ayoe</b>
+                <b>@Tukay Maryjane Ayoe</b>
               </p>
               <small>Brand mbassador, Tukay</small>
             </div>
