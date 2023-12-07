@@ -1,8 +1,8 @@
 import React from "react";
 import image13 from "../assets/image 13.png";
-import vector from "../../public/vector.svg";
-import vector1 from "../../public/vector (1).svg";
-import vector2 from "../../public/vector (2).svg";
+import vector from "../../public/x.svg";
+import vector1 from "../../public/link.svg";
+import vector2 from "../../public/in.svg";
 const Footer = () => {
   return (
     <footer className="bg-custom-btn-background w-full p-10">
