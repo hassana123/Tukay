@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind Components;
+@tailwind utilities;
+
+:root {
+  line-height: 1.5;
+  /* font-weight: 400; */
+  font-family: "Space Grotesk", sans-serif;
+  color-scheme: light dark;
+  font-synthesis: none;
+  scroll-behavior: smooth;
+  text-rendering: optimizeLegibility;
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  -ms-overflow-style: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.bs {
+  box-shadow: 1px 2px 8.7px 0px rgba(0, 0, 0, 0.25);
+}
