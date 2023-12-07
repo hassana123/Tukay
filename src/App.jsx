@@ -7,7 +7,7 @@ import Reviews from "./components/Reviews";
 import Footer from "./components/Footer";
 function App() {
   return (
-    <main className="bg-custom-text-light text-custom-text-light">
+    <main className="bg-custom-text-light text-custom-text-light font-sans">
       <Navigtaion />
       <Hero />
       <Util />

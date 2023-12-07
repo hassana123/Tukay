@@ -17,9 +17,6 @@ export default {
       lineHeight: {
         normal: "1.5",
       },
-      boxShadow: {
-        bs: "1px 2px 8.7px 0px rgba(0, 0, 0, 0.25)",
-      },
     },
   },
   plugins: [],

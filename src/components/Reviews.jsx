@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles.css";
 import image4 from "../assets/image 4.png";
 import image3 from "../assets/image 3.png";
 import image5 from "../assets/image 5.png";
@@ -51,7 +52,7 @@ const Reviews = () => {
           </div>
         </div>
       </div>
-      <aside className="md:flex md:text-[24px] bs rounded-lg justify-between md:w-[80%] w-[90%] mx-auto  my-20  md:px-20 px-2 py-20">
+      <aside className="md:flex md:text-[24px] rounded-lg justify-between md:w-[80%] w-[90%] mx-auto  my-20  md:px-20 px-2 py-20 bs">
         <div>
           <p className="mb-20">
             <b>
