@@ -26,12 +26,12 @@ const Reviews = () => {
               <small>Senior ambassador, Tukay</small>
             </div>
             <img
-              className="mx-auto w-[50%] md:w-[30%]  md:absolute right-0  md:bottom-[-2%] overflow-hidden"
+              className="mx-auto w-[50%] md:w-[30%]  md:absolute right-0  md:bottom-[-1.5%] overflow-hidden"
               src={image4}
               alt=""
             />
           </div>
-          <div className=" bg-custom-background  rounded-lg mx-auto md:mx-0  relative w-[90%] md:w-[70%]       border-[2px] border-custom-btn-background md:flex">
+          <div className=" bg-custom-background  rounded-lg mx-auto md:mx-0  relative w-[90%] md:w-[80%] border-[2px] border-custom-btn-background md:flex">
             <div className="mt-20 md:w-[50%] md:mx-20 mx-3">
               <p className="my-10 md:text-[32px]">
                 <b>
@@ -45,7 +45,7 @@ const Reviews = () => {
               <small>Brand mbassador, Tukay</small>
             </div>
             <img
-              className="mx-auto w-[50%] md:w-[30%]  md:absolute right-0  md:bottom-[-0.2%] overflow-hidden"
+              className="mx-auto w-[40%] md:w-[30%]  md:absolute right-0  md:bottom-[-0.2%] overflow-hidden"
               src={image3}
               alt=""
             />

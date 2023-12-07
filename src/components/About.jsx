@@ -4,7 +4,7 @@ import image9 from "../assets/image 9.png";
 import image18 from "../assets/image 18.png";
 const About = () => {
   return (
-    <main className="text-custom-btn-background md:text-[32px] mt-10 text-center">
+    <main className="text-custom-btn-background md:text-[32px] mt-20 text-center">
       <div className=" w-[80%] mx-auto ">
         <h1 className="md:text-[64px] text-[24px] my-1">WHO BE TUKAY? </h1>
         <p className="mb-10">
@@ -21,19 +21,19 @@ const About = () => {
           issue go commot.
         </p>
         <div className="md:grid md:grid-cols-3 gap-20 md:text-[20px]">
-          <div className=" mt-5 mx-auto">
-            <img className="w-[50%] mx-auto" src={image18} alt="" />
+          <div className=" mx-auto">
+            <img className="w-[40%] mx-auto" src={image18} alt="" />
             <p>Coins for lending</p>
           </div>
-          <div className="mt-5 mx-auto">
-            <img className="w-[50%] mx-auto" src={image9} alt="" />
-            <p className="md:my-[40px]">
+          <div className="mx-auto">
+            <img className="w-[60%] mx-auto" src={image9} alt="" />
+            <p className="mt-5">
               Tukay note for free users(for direct begging)
             </p>
           </div>
-          <div className="mt-5 mx-auto">
-            <img className="w-[50%] mx-auto" src={image8} alt="" />
-            <p className="md:my-[40px]">
+          <div className="mx-auto">
+            <img className="w-[60%] mx-auto" src={image8} alt="" />
+            <p className="mt-5">
               Tukay note for premium users(for direct begging and lending)
             </p>
           </div>

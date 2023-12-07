@@ -7,9 +7,9 @@ const Footer = () => {
   return (
     <footer className="bg-custom-btn-background w-full p-10">
       <main className="md:flex justify-between">
-        <div className="flex gap-3 md:w-[35%] w-[20%]  md:mx-auto mt-20">
-          <img className="md:h-[15vh]" src={image13} alt="" />
-          <h1 className="text-custom-background md:text-[64px] text-[24px]">
+        <div className="flex gap-3 md:w-[30%] w-[20%]  md:mx-auto mt-20">
+          <img className="md:h-[12vh]" src={image13} alt="" />
+          <h1 className="text-custom-background md:text-[60px] text-[24px]">
             <b>Tukay</b>
           </h1>
         </div>

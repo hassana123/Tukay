@@ -5,8 +5,8 @@ import image10 from "../assets/image 10.png";
 const Navigtaion = () => {
   return (
     <div className="bg-custom-background text-custom-text-dark">
-      <nav className="flex md:justify-around py-1 mx-5 gap-10">
-        <div className="flex md:w-[20%] w-[40%]">
+      <nav className="flex justify-around py-1 ">
+        <div className="flex md:w-[15%] w-[40%]">
           <img className="" src={image10} alt="logo" />
           <h1 className="md:text-[40px] text-[20px] md:my-0 my-3 font-700 text-custom-btn-background">
             Tukay
