@@ -5,7 +5,7 @@ import vector1 from "../../public/link.svg";
 import vector2 from "../../public/in.svg";
 const Footer = () => {
   return (
-    <footer className="bg-custom-btn-background w-full p-10">
+    <footer id="contact" className="bg-custom-btn-background w-full p-10">
       <main className="md:flex justify-between">
         <div className="flex gap-3 md:w-[30%] w-[20%]  md:mx-auto mt-20">
           <img className="md:h-[12vh]" src={image13} alt="" />

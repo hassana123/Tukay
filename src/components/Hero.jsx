@@ -23,14 +23,14 @@ const Hero = () => {
           </p>
           <div className="md:flex md:mb-0 mb-10 justify-between w-[55%] my-5">
             <a
-              className="block md:mb-0 mb-10 bg-custom-btn-background  text-custom-text-light px-5 py-3 rounded lg"
+              className="block md:mb-0 mb-10 bg-custom-btn-background  text-custom-text-light px-5 py-3 rounded-lg transition-colors duration-300 ease-in-out hover:bg-transparent hover:text-custom-btn-background hover:border-[2px] border-custom-btn-background"
               href="#"
             >
               Oga register first
             </a>
             <a
               onClick={handlePlay}
-              className="transition-colors duration-300 ease-in-out hover:bg-custom-btn-background hover:text-white border-[2px] border-custom-btn-background px-10 py-3 rounded lg"
+              className="transition-colors duration-300 ease-in-out hover:bg-custom-btn-background hover:text-white border-[2px] border-custom-btn-background px-10 py-3 rounded-lg"
               href="#"
             >
               Beg first

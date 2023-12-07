@@ -18,21 +18,21 @@ const Navigtaion = () => {
           </h1>
         </div>
         <div className="hidden md:block flex justify-center items-center">
-          <ul className="text-[24px]   font-500 text-custom-text-dark py-3">
-            <li className="inline-block px-5">
+          <ul className="text-[24px]   text-custom-text-dark py-3">
+            <li className="inline-block hover:font-bold px-5">
               <a href="#">Home</a>
             </li>
-            <li className="inline-block px-5">
-              <a href="#">Beg</a>
+            <li className="inline-block hover:font-bold px-5">
+              <a href="#">Beggers</a>
             </li>
-            <li className="inline-block px-5">
-              <a href="#">SapaCheck</a>
+            <li className="inline-block hover:font-bold px-5">
+              <a href="#">Givers</a>
             </li>
-            <li className="inline-block px-5">
-              <a href="#">Tags</a>
+            <li className="inline-block hover:font-bold px-5">
+              <a href="#">SapaChecks</a>
             </li>
-            <li className="inline-block px-5">
-              <a href="#">Contact</a>
+            <li className="inline-block hover:font-bold px-5">
+              <a href="#contact">Contact</a>
             </li>
           </ul>
         </div>
